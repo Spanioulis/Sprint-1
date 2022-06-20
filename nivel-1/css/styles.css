@@ -1,0 +1,88 @@
+* {
+  /* Hay que poner el tamaño real que marca el ejercicio. MIRAR SI SE PONE PARA TODA LA PÁGINA O PARA EL CONTAINER */
+  /* max-width: auto; */
+  padding: 0;
+  margin: 0;
+  /* Para evitar problemas con el scroll horizontal, ponremos este 'box-sizing'. */
+  /* box-sizing: border-box; */
+}
+
+.body {
+  max-width: 1200px;
+}
+
+.flex-container {
+  /* Hay que poner el tamaño real que marca el ejercicio. */
+  /* max-width: 1200px; */
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  /* ¿Hacer la conversión a rem del height? */
+  height: 135px;
+  padding: 1.2rem;
+  margin: 1.2rem;
+  gap: 0.7rem;
+}
+
+/* Es lo mismo que .flex-contaniner; ELIMINAR. */
+.flex-container2 {
+  /* Hay que poner el tamaño real que marca el ejercicio. */
+  /* max-width: 1200px; */
+  display: flex;
+  background-color: black;
+  height: 135px;
+  padding: 1.2rem;
+  margin: 1.2rem;
+  gap: 0.7em;
+}
+
+.footer {
+  /* max-width: 1200px; */
+  display: flex;
+  background-color: black;
+  color: orange;
+  height: 40px;
+  padding: 1.2rem;
+  margin: 1.2rem;
+}
+
+.box1 {
+  background-color: rgb(62, 56, 92);
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.box2 {
+  background-color: rgb(235, 139, 13);
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.box3 {
+  background-color: rgb(94, 83, 131);
+  gap: 0.3em;
+}
+
+.box4 {
+  background-color: rgb(250, 48, 92);
+  gap: 0.3em;
+}
+
+.box11 {
+  /* max-width: auto; */
+  background-color: rgba(228, 56, 56, 0.753);
+  margin: 1.2rem;
+}
+
+.box21 {
+  background-color: rgb(250, 220, 53);
+  /* align-items: center; */
+  margin: 1.2rem;
+}
+
+.box31 {
+  background-color: rgb(53, 89, 250);
+  margin: 0.5em;
+}
