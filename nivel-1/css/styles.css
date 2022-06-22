@@ -8,23 +8,19 @@
 body {
   /* Anchura máxima de la capa que contendrá la maquetación. */
   max-width: 1200px;
-  /* Viene por defecto `blanco`. */
-  background-color: white;
   display: flex;
   flex-flow: column nowrap;
 }
 
 .flex-container {
   background-color: black;
-  display: flex;
-  flex-flow: column nowrap;
+  flex-wrap: nowrap;
 }
 
 .box1 {
   background-color: rgb(62, 56, 92);
   display: flex;
   flex-flow: row nowrap;
-  flex: 1 1 auto;
 }
 
 .box11 {
@@ -39,22 +35,15 @@ body {
 
 .box2 {
   background-color: rgb(235, 139, 13);
-  display: flex;
-  /* Al haber sólo un 'hijo', si ponemos row, deberemos ponerle un flex a dicho 'hijo'.
-  Si ponemos column, ocupará todo el espacio del 'footer'. ¿Qué es más apropiado? */
-  flex-flow: row nowrap;
-  flex: 1 1 auto;
 }
 
 .box21 {
   background-color: rgb(250, 220, 53);
-  flex: 1 1 auto;
 }
 
 .flex-container2 {
   background-color: black;
   display: flex;
-  flex-flow: row nowrap;
 }
 
 .box3 {
@@ -85,14 +74,11 @@ body {
 
 .footer {
   background-color: black;
-  display: flex;
-  /* Al haber sólo un 'hijo', si ponemos row, deberemos ponerle un flex a dicho 'hijo'.
-  Si ponemos column, ocupará todo el espacio del 'footer'. Mismo caso que en box2(padre)-box21(hijo). */
-  flex-flow: row nowrap;
 }
 
 .box5 {
   background-color: rgb(250, 213, 48);
+  display: flex;
   flex: 1 1 auto;
 }
 
