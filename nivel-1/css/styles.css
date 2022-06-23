@@ -8,6 +8,7 @@
 body {
   /* Anchura máxima de la capa que contendrá la maquetación. */
   max-width: 1200px;
+  /* ¿Realmente hace falta poner el flex aquí? No cambia nada, pero lo estamos diciendo al "padre" que vamos a usar el `display: flex` a su contenido.  */
   display: flex;
   flex-flow: column nowrap;
 }
