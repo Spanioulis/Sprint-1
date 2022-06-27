@@ -237,11 +237,11 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
 @media all and (min-width: 480px) and (max-width: 640px) {
   .header {
     height: 200px;
-    gap: 1.5rem;
+    gap: 1.5em;
   }
 
   .logo {
-    margin: 0 0 0 0.9rem;
+    margin: 0 0 0 0.9em;
   }
 
   .img-responsive {
@@ -251,12 +251,12 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
 
   .navegador a {
     color: rgb(70, 70, 70);
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
 
   .rrss a {
     color: rgb(70, 70, 70);
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
 
   .cabecera {
@@ -264,12 +264,12 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.6em;
   }
 
   .titulo {
     opacity: 0.8;
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 
   .section {
@@ -281,11 +281,11 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.4em;
   }
 
   .remove {
@@ -293,7 +293,7 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
   }
 
   .foot {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 }
 
@@ -301,7 +301,7 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
   .header {
     flex-direction: column;
     height: 200px;
-    gap: 3rem;
+    gap: 3em;
   }
 
   .menu {
@@ -320,22 +320,22 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
   }
 
   .navegador {
-    gap: 1.2rem;
+    gap: 1.2em;
   }
 
   .navegador a {
     color: rgb(70, 70, 70);
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
 
   .rrss a {
     color: rgb(70, 70, 70);
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
 
   .titulo {
     opacity: 0.8;
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   .cabecera {
@@ -351,11 +351,11 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.1em;
   }
 
   .remove {
@@ -363,6 +363,6 @@ Por defecto estará el @Media Query para desktop (max-width: 1200px) */
   }
 
   .foot {
-    font-size: 1rem;
+    font-size: 1em;
   }
 }
